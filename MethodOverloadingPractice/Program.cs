@@ -44,6 +44,10 @@ namespace MethodOverloadingPractice
         static void Main(string[] args)
         {
             List<string> listOfNames = new List<string>();
+            listOfNames.Add("Chuck");
+            listOfNames.Add("Mary");
+            listOfNames.Add("Richard");
+
             //TODO Call both methods here. Use a break point and watch as the code jumps to the different method overloads.
             Names("abcdefg", "abcdejg");
             Names(listOfNames, 4);
